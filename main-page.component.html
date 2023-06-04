@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    #popupdeerid {
+      position: absolute;
+      z-index: 9;
+    }
+    #popupbutterflyid {
+      position: absolute;
+      z-index: 9;
+    }
+    #popuptreeid {
+      position: absolute;
+      z-index: 9;
+    }
+    #popupbluebellid {
+      position: absolute;
+      z-index: 9;
+    }
+  </style>
+  <body class ="Body">
+    <img *ngIf="rain" class="Rain" src="rain.gif" alt="rain">
+    <div class="Butterfly" (click)="showbutterfly()"> </div>
+    <div class="Deer" (click)="showdeer()"> </div>
+    <div class="Tree" (click)="showtree()"> </div>
+    <div class="Bluebell" (click)="showbluebell()"> </div>
+    <div class="frontarrow1" (click)="forward()"> </div>
+    <div id="popupdeerid">
+      <div *ngIf="deerpopup" class="popupdeer" id="popupdeerid">
+          <div class = "updeer">  
+            <p class="title">Deer</p>
+            <div class="image2"></div>
+            <p class="text"><br><span class="bolded">Life span:</span><br>6 years <br><br>
+              <span class="bolded">Length Range:</span><br>2.6m (Moose)<br> 30cm (Northern Pudu)<br> 
+            </p>
+            <div class = "sound" (click)="playdeer()"></div>
+            <div class = "close" (click)="showdeer()"></div>
+          </div>
+          <div class="Information">
+          <p class="text">
+            <span class="bolded">Habitat:</span><br>Deer live in a variety of biomes, ranging from tundra to the tropical rainforest. Many deer 
+            are ecotone species that live in transitional areas between forests and thickets and prairie and savanna. Adequate forest 
+            or brush cover must still be provided for populations to grow and thrive.<br><br>
+            <span class="bolded">Nutrition:</span><br>Deer are browsers, they select easily digestible shoots, young leaves, 
+            fresh grasses, soft twigs, fruit, fungi, and lichens.</p>
+          </div>  
+      </div>
+    </div>
+    <div id="popupbutterflyid">
+      <div *ngIf="butterflypopup" class="popupbutetrfly">
+        <div class="upbut">
+            <p class="title2">Butterfly</p> 
+            <div class="image"></div>
+            <p class="text"><br><span class="bolded">Life span:</span><br>1 week to 1 year <br><br>
+              <span class="bolded">Average Length:</span><br>0.3-30cm
+            </p>
+            <div class = "sound2" (click)="playbutterfly()"></div>
+            <div class = "close" (click)="showbutterfly()"></div>
+        </div>
+        <div class="Information">
+          <p class="text">
+            <span class="bolded">Habitat:</span><br>Butterflies live worldwide except the arctic. Nearly anywhere with nectar-producing flowers 
+              will host butterflies. Butterflies are often polymorphic, and many species make use of camouflage, mimicry, and aposematism 
+              to evade their predators.<br><br>
+              <span class="bolded">Nutrition:</span><br>
+              Caterpillars eat leaves and other plant parts. Most butterflies prefer flower nectar, but others may feed on the liquids found 
+              in rotting fruit, in ooze from trees, and in animal dung.</p>
+        </div>
+      </div>
+    </div>
+    <div id ="popuptreeid">
+      <div *ngIf="treepopup" class="popuptree" >
+        <div class="uptree">
+            <p class="title3" id = "titleid">Ponderosa Pine</p> 
+            <div class="image3"></div>
+            <p class="text"><br><span class="bolded">Uses:</span><br>Lumber,<br>construction<br><br>
+              <span class="bolded">Average height:</span><br>60-100 m<br>
+            </p>
+            <div class = "close" (click)="showtree()"></div>
+        </div>
+        <div class="Information">
+          <p class="text">
+            <span class="bolded">Physical description:</span><br>Ponderosa pine is a large-crowned tree with a straight trunk. 
+            It is the largest of the western pine species, and usually grows to a diameter of two metres and can live 
+            as long as 400 to 500 years.<br><br>
+            <span class="bolded">Habitat:</span><br>Ponderosa pine grows 
+            in a variety of soils, from extremely dry to well-drained, relatively deep moist soils. It has a long, deep 
+            root that enables it to access deeper, moister soil, and keeps it firm in windy conditions.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="popupbluebellid">
+      <div *ngIf="bluebellpopup" class="pupupbluebell">
+        <div class="uptree">
+            <p class="title4">Bluebell</p> 
+            <div class="image4"></div>
+            <p class="text"><br><span class="bolded">Uses:</span><br>Garden plants,<br>Medical Properties<br><br>
+              <span class="bolded">Average height:</span><br>10–40cm<br>
+            </p>
+            <div class = "close" (click)="showbluebell()"></div>
+        </div>
+        <div class="Informationshort">
+          <p class="text">
+            <span class="bolded">Physical description:</span><br>Hyacinthoides non-scripta is a perennial plant that grows from a bulb.
+            The bulbs produce contractile roots; when these roots contract, they draw the bulbs down into deeper layers of the 
+            soil where there is greater moisture.<br><br>
+            <span class="bolded">Habitat:</span><br>It can be found in olive groves, in dry and stony meadows and in clearings of 
+            forests at an elevation up to 1,700 metres above sea level.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
