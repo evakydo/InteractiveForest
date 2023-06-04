@@ -1,0 +1,198 @@
+.Body {
+    background-color: rgb(155,173,136);
+    max-width: 375px;
+    min-height: 812px;
+}
+
+.Navbar {
+    height: 60px;
+    background-color: rgb(113,125,115);
+}
+
+.image {
+    background-image: url("../images/backarrow.png");
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border: 0;
+    padding: 0;
+}
+
+.TittleText {
+    height: 60px;
+    line-height: 60px;
+    color: rgb(239, 232, 214);
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.column {
+    position: relative;    
+    margin: 5px;
+    background-color:rgb(239, 232, 214);
+    text-align: center;
+    width: 42%;
+    height: 217px;
+}
+  
+.row:after {
+    display: table;
+    clear: both;
+}
+
+.name {
+    width: 100%;
+    right:0;
+    margin:0;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(125,115,113);
+    color: rgb(239, 232, 214);
+}
+
+.lavender{
+    background-image:url("../images/levander.png");
+    background-position: center center;
+    background-size: cover;
+    height: 160px;
+    width: 110px;
+    left:25px;
+    top:20px;
+    position: relative;
+}
+
+.douglas{
+    background-image:url("../images/douglas.png");
+    background-position: center center;
+    background-size: cover;
+    height: 160px;
+    width: 90px;
+    left:40px;
+    top:20px;
+    position: relative;
+}
+
+.pansy{
+    background-image:url("../images/pansy.png");
+    background-position: center center;
+    background-size: cover;
+    height: 160px;
+    width: 120px;
+    left:25px;
+    top:20px;
+    position: relative;
+}
+
+.pine{
+    background-image:url("../images/lodgepole1.png");
+    background-position: center center;
+    background-size: cover;
+    height: 160px;
+    width: 90px;
+    left:45px;
+    top:20px;
+    position: relative;
+}
+
+.ponderosa{
+    background-image:url("../images/ponderosa.png");
+    background-position: center center;
+    background-size: cover;
+    height: 160px;
+    width: 120px;
+    left:25px;
+    top:20px;
+    position: relative;
+}
+
+.redwood{
+    background-image:url("../images/redwood.png");
+    background-position: center center;
+    background-size: cover;
+    height: 170px;
+    width: 110px;
+    left:25px;
+    top:20px;
+    position: relative;
+}
+
+.sequoia{
+    background-image:url("../images/sequoia.png");
+    background-position: center center;
+    background-size: cover;
+    height: 160px;
+    width: 120px;
+    left:25px;
+    top:20px;
+    position: relative;
+}
+
+.daisy{
+    background-image:url("../images/daisy.png");
+    background-position: center center;
+    background-size: cover;
+    height: 160px;
+    width: 110px;
+    left:25px;
+    top:20px;
+    position: relative;
+}
+
+
+.bluebell{
+    background-image:url("../images/bluebell.png");
+    background-position: center center;
+    background-size: cover;
+    height: 160px;
+    width: 110px;
+    left:25px;
+    top:20px;
+    position: relative;
+}
+
+.larch{
+    background-image:url("../images/larch.png");
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+    width: 110px;
+    left:25px;
+    top:20px;
+    position: relative;
+}
+
+.hemlock{
+    background-image:url("../images/poppy.png");
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+    width: 110px;
+    left:35px;
+    top:20px;
+    position: relative;
+}
+
+.spruce{
+    background-image:url("../images/redspruce.png");
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+    width: 110px;
+    left:35px;
+    top:20px;
+    position: relative;
+}
+
+.atlascedar{
+    background-image:url("../images/atlascedar.png");
+    background-position: center center;
+    background-size: cover;
+    height: 160px;
+    width: 140px;
+    left:15px;
+    top:20px;
+    position: relative;
+}
